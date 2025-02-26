@@ -11,3 +11,9 @@ async def root():
 async def hello():
     return {"message": "Hello World from /hello"}
 
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app)
+    
+    
