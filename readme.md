@@ -8,3 +8,8 @@ python3 -m venv .myvenv
 source .myvenv/bin/activate
 pip3 install -r requirements
 ```
+
+Run it on the cmd line: (not backgrouded)\
+`
+uvicorn file:app --reload --host=0.0.0.0
+`
